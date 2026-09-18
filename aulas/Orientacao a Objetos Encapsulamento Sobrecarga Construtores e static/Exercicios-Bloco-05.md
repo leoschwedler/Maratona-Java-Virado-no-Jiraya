@@ -22,7 +22,7 @@
 
 ## 🟢 1. Produto encapsulado
 
-Crie uma classe `Produto` com:
+Crie uma classe `Aluno` com:
 
 - `private String nome`
 - `private double preco`
@@ -315,7 +315,7 @@ Não inicialize os atributos manualmente depois da criação.
 
 ## 🟡 2. Construtor x inicialização manual
 
-Crie uma classe `Produto`.
+Crie uma classe `Aluno`.
 
 Faça uma versão em que o objeto é criado e depois recebe os atributos por setters.
 
@@ -428,7 +428,7 @@ this(...);
 
 ## 🟢 1. Ordem de execução
 
-Crie uma classe `Teste` contendo:
+Crie uma classe `Anime` contendo:
 
 - um bloco de inicialização;
 - um construtor;
