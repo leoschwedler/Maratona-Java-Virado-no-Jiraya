@@ -35,7 +35,7 @@ public class Estudante {
 }
 ```
 
-A classe `Estudante` define quais informações um estudante terá.
+A classe `Aluno` define quais informações um estudante terá.
 
 ## 2. O que é um objeto?
 
@@ -47,7 +47,7 @@ Estudante estudante = new Estudante();
 
 Aqui:
 
-- `Estudante` → tipo da variável
+- `Aluno` → tipo da variável
 - `estudante` → variável de referência
 - `new Estudante()` → criação do objeto
 

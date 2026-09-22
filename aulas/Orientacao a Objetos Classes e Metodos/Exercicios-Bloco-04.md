@@ -65,7 +65,7 @@ Crie uma classe `Professor` contendo somente informações relacionadas ao profe
 Imagine uma classe `Pessoa` contendo dados de estudante e professor ao mesmo tempo.
 
 Separe essa ideia em duas classes:
-- `Estudante`
+- `Aluno`
 - `Professor`
 
 Escreva quais atributos pertencem a cada uma.
@@ -212,15 +212,15 @@ com:
 - idade
 - sexo
 
-Depois crie uma classe `Impressora` com um método que receba um `Estudante` e imprima seus dados.
+Depois crie uma classe `Impressora` com um método que receba um `Aluno` e imprima seus dados.
 
 ### 25 — Alterar estudante
-Crie um método que receba um `Estudante` e altere o nome do estudante.
+Crie um método que receba um `Aluno` e altere o nome do estudante.
 
 No `main`, imprima o nome antes e depois da chamada.
 
 ### 26 — Alterar vários atributos
-Crie um método que receba um `Estudante` e altere:
+Crie um método que receba um `Aluno` e altere:
 - nome
 - idade
 - sexo
@@ -242,7 +242,7 @@ Depois observe o que acontece ao acessar o objeto através da outra referência.
 # Parte 7 — `this`
 
 ### 29 — Primeiro contato com `this`
-Crie uma classe `Estudante` com:
+Crie uma classe `Aluno` com:
 - nome
 - idade
 
@@ -312,7 +312,7 @@ Crie uma classe `Calculadora` com métodos para:
 Os métodos devem retornar os resultados.
 
 ### 37 — Estudante
-Crie uma classe `Estudante` com:
+Crie uma classe `Aluno` com:
 
 ```text
 nome
@@ -342,7 +342,7 @@ Crie métodos para:
 
 ### 39 — Método que recebe objeto
 Crie uma classe `Impressora` com métodos que recebam:
-- `Estudante`
+- `Aluno`
 - `Funcionario`
 
 Cada método deve imprimir os dados do objeto recebido.
