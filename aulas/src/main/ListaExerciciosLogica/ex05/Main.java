@@ -1,4 +1,4 @@
-package ListaExercicios.ex05;
+package ListaExerciciosLogica.ex05;
 
 public class Main {
     public static void main(String[] args) {

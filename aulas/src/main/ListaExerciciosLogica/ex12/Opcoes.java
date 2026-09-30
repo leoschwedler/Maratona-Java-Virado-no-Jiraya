@@ -1,0 +1,8 @@
+package ListaExerciciosLogica.ex12;
+
+public enum Opcoes {
+    AVISTADINHEIRO,
+    AVISTACARTAOCREDITO,
+    PARCELADOCARTAODUASVEZES,
+    PARCELADOCARTAOTRESVEZES
+}
