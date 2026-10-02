@@ -12,7 +12,8 @@ public class Main {
         // Iniciar uma lista nao tipando (NAO RECOMENDADO)
         List ninjas = new ArrayList();
         // Iniciando uma lista com valores TIPADA (RECOMENDADO)
-        List produtos = new ArrayList(Arrays.asList("Tv", "Celular"));
+        List<String> produtos = new ArrayList<>(Arrays.asList("Tv", "Celular"));
         // Iniciando uma lista com valores NAO TIPADA (NAO RECOMENDADO)
+        List produtosNova = new ArrayList(Arrays.asList("Tv", "Celular"));
     }
 }
