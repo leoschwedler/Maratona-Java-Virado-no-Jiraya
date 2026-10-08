@@ -1,0 +1,10 @@
+package bloco01_aulas20a25_estrutura_condicionais.aula022;
+
+public class Ex01 {
+    public static void main(String[] args) {
+        int idade = 20;
+
+        String resultado = idade > 18 ? "Maior de idade" : "Menor de idade";
+
+    }
+}
