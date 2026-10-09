@@ -139,12 +139,12 @@ Instale o Maven, configure as variáveis de ambiente e registre em `NOTAS-AULA-2
 
 ## 🟡 Exercício 11 — Projeto Maven à mão
 
-Crie um projeto Maven **pela linha de comando** (`mvn archetype:generate` ou criando as pastas e o `pom.xml` à mão). Faça uma classe `Main` que imprime "Olá Maven" e rode:
+Crie um projeto Maven **pela linha de comando** (`mvn archetype:generate` ou criando as pastas e o `pom.xml` à mão). Faça uma classe `GeradorRelatorio` que imprime "Olá Maven" e rode:
 
 ```bash
 mvn compile
 mvn package
-java -cp target/classes pacote.Main
+java -cp target/classes pacote.GeradorRelatorio
 ```
 
 Explique a estrutura `src/main/java`, `src/main/resources`, `src/test/java` e o que é a pasta `target`.
@@ -304,11 +304,11 @@ Você vai montar, do zero, o projeto completo deste bloco: infraestrutura + cama
    - `episodes` entre 1 e 5000;
    - não permitir anime sem produtor existente (por enquanto, trate o erro de FK);
    - não permitir apagar produtor com animes (mensagem clara).
-9. Uma classe `Main` (camada de apresentação em console) com um menu simples que chama **apenas os serviços**.
+9. Uma classe `GeradorRelatorio` (camada de apresentação em console) com um menu simples que chama **apenas os serviços**.
 
 ### Qualidade
 
-10. Nenhum `System.out.println` fora do `Main`.
+10. Nenhum `System.out.println` fora do `GeradorRelatorio`.
 11. Nenhuma conexão fica aberta (prove com `SHOW PROCESSLIST` antes e depois de 200 operações).
 12. Um relatório final (log) com a quantidade de inserções, remoções e falhas.
 13. Escreva um `README-PROJETO.md` explicando como subir o ambiente do zero em 5 comandos.
